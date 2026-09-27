@@ -1,0 +1,33 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments & secrets
+venv/
+env/
+.env*
+*token*
+*.key
+*.pem
+huggingface/
+
+# Large model weights (if stored locally)
+paligemma-weights/
+*.safetensors
+*.bin
+
+# Output logs and generated images
+outputs/
+*.jpg
+*.jpeg
+*.png
+!test_images/*
+
+# OS files
+.DS_Store
+Thumbs.db
